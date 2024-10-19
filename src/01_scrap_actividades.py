@@ -80,36 +80,37 @@ def obtener_actividades(url):
 
     return actividades
 
-def procesar_pagina(i):
+def procesar_pagina(datos_input):
+
+    page = datos_input[0]
+    ciudad = datos_input[1][0]
+    date_1 = datos_input[1][1]
+    date_2 = datos_input[1][2]
 
     pag_start_time = time.time()
-    date_1 = '2024-11-01'
-    date_2 = '2024-11-03'
-    ciudad = 'valencia'
-    
-    url_format = f"https://www.civitatis.com/es/{ciudad}/?page={i}&fromDate={date_1}&toDate={date_2}"
+
+    url_format = f"https://www.civitatis.com/es/{ciudad}/?page={page}&fromDate={date_1}&toDate={date_2}"
  
     dicc_pag = obtener_actividades(url_format)
     pag_end_time = time.time()
-    print(f"\n El scrapeo de la PAGINA {i} duró {pag_end_time - pag_start_time:.2f} segundos.")
+    print(f"\n El scrapeo de la PAGINA {page} duró {pag_end_time - pag_start_time:.2f} segundos.")
 
     return dicc_pag
 
-if __name__ == "__main__":
+def main(input_data, num_pag):
     start_time = time.time()
 
-    # Diccionario final donde se almacenarán los datos de todas las páginas
     dicc_final = {"titulo": [], "descripcion": [], "precio": []}
+    
+    for search_values in input_data:
+        args = [(i, search_values) for i in range(1, num_pag)]    
+        with multiprocessing.Pool(processes=multiprocessing.cpu_count()) as pool:
+            resultados = pool.map(procesar_pagina, args)
 
-    # Creamos un Pool de procesos con el número de CPUs disponibles
-    with multiprocessing.Pool(processes=multiprocessing.cpu_count()) as pool:
-        resultados = pool.map(procesar_pagina, range(1, 4))
-
-    # Unimos los resultados de todas las páginas en el diccionario final
-    for dicc_pag in resultados:
-        if dicc_pag:  # Verificamos que el scraping no haya fallado
-            for key in dicc_final.keys():
-                dicc_final[key].extend(dicc_pag[key])
+        for dicc_pag in resultados:
+            if dicc_pag:
+                for key in dicc_final.keys():
+                    dicc_final[key].extend(dicc_pag[key])
 
     df = pd.DataFrame(dicc_final)
     print(f"Numero de registros devueltos: {df.shape[0]}")
@@ -117,3 +118,10 @@ if __name__ == "__main__":
 
     end_time = time.time()
     print(f"\n El scrapeo TOTAL duró {end_time - start_time:.2f} segundos.")
+
+if __name__ == "__main__":
+
+    input_data =[['valencia','2024-11-01','2024-11-03'],['valencia','2024-11-08','2024-11-10']]
+    num_pag = 4
+
+    main(input_data,num_pag)
