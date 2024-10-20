@@ -8,9 +8,7 @@ Para superar esta limitación, recurrimos al **Web Scraping**, una técnica muy 
 
 # Objetivo final del proyecto
 
-Ahora que ya tienes los datos recabados y analizados, han llegado los primeros clientes con características propias. Deberás proporcionarles sus vacaciones perfectas. A continuación, te adjuntamos información sobre estos clientes:
-
-1. **Parejas en busca de escapadas románticas**: Novios o parejas casadas que buscan un viaje especial para celebrar aniversarios, lunas de miel o simplemente para escapar de la rutina.
+**Parejas en busca de escapadas románticas**: Novios o parejas casadas que buscan un viaje especial para celebrar aniversarios, lunas de miel o simplemente para escapar de la rutina.
 
 ## Analisis
 
@@ -18,7 +16,7 @@ Ahora que ya tienes los datos recabados y analizados, han llegado los primeros c
    - **Fechas analizadas (01/11/2024-03/11/2024) y (08/11/2024-10/11/2024)**
    - **Ciudades comparadas Barcelona y Valencia salida desde Madrid**
      
-   - En esta grafica podemos observar que practiamente no hay diferencia de precios de una fecha a otra, solo observamos que Barcelona es un poco mas economica, debido
+   - En esta grafica podemos observar que practicamente no hay diferencia de precios de una fecha a otra, solo observamos que Barcelona es un poco mas economica, debido
      a que es una capital que recibe mucho turismo. Al haber mas competencia baja el precio. 
      
      ![imagen](https://github.com/santiagorodriguez-dev/Proyecto2-Explorando-Viajes/blob/main/images/01.png)
@@ -34,10 +32,10 @@ Ahora que ya tienes los datos recabados y analizados, han llegado los primeros c
 
 ## Conclusiones
    - Con los datos analizados, proponemos al cliente, relizar el viaje la segunda fecha analizada 8/11/24
-     ya que es siginificativamente mas econmica en vuelos y hoteles, y con mas opciones de vuelos, con lo cual sera mas flexible la ida/vuelta del cliente.
+     ya que es siginificativamente mas economica en vuelos y hoteles, y con mas opciones de vuelos, con lo cual sera mas flexible la ida/vuelta del cliente.
      El destino a elegir ya sera por criterio de afinidad/economico del cliente. Considerando que si queremos un viaje mas economico recomendaria Valencia. 
 
-2. **Propuestas de Mejora:**
+**Propuestas de Mejora:**
    - Comparativas por puntuaciones de usuarios ya sea para hoteles, actividades y compañias de vuelos.
   
 ## Construido con 🛠️
