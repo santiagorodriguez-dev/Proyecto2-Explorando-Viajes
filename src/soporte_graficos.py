@@ -1,6 +1,6 @@
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
+import pandas as pd # type: ignore
+import seaborn as sns # type: ignore
+import matplotlib.pyplot as plt # type: ignore
 
 def grafico_actividades(df_actividades):
 
@@ -22,6 +22,19 @@ def grafico_hoteles(df_hoteles):
 
 
     plt.title('Distribución de Precios de alojamientos por Dia inicio de Fin de semana')
+    plt.xlabel('')
+    plt.ylabel('Precio Total (EUR)')
+    plt.xticks(rotation=0)
+    plt.show()
+
+def grafico_vuelos(df_vuelos):
+    df_vuelos['departure_date'] = pd.to_datetime(df_vuelos['departure_date']).dt.date
+
+    plt.figure(figsize=(12, 8))
+    sns.boxplot(data=df_vuelos, x='departure_date', y='price', hue='destination')
+
+
+    plt.title('Distribución de Precios de vuelos ida - vuelta')
     plt.xlabel('')
     plt.ylabel('Precio Total (EUR)')
     plt.xticks(rotation=0)
