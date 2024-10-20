@@ -1,81 +1,81 @@
 ,destination,city,checkin_date,checkout_date,address,accommodation_type_name,distance,checkin,checkout,review_score,price_total,price_night,hotel_name,class
-0,Valencia,Valencia,2024-11-01,2024-11-03,168 Avinguda del Port,Apartamento,2.67,15:00,11:00,8.2,357.3,178.65,Valencia Luxury - Sea Port I,0.0
-1,Valencia,Valencia,2024-11-01,2024-11-03,"Bailen 18, 1º",Hostal o pensión,0.39,14:00,11:00,5.9,154.67,77.335,NWT Central Station Valencia,0.0
-2,Valencia,Valencia,2024-11-01,2024-11-03,"Escultor Vicente Beltrán Grimal, 2",Hotel,2.56,15:00,12:00,8.4,367.0,183.5,Eurostars Acteón,4.0
+0,Valencia,Valencia,2024-11-01,2024-11-03,168 Avinguda del Port,Apartamento,2.67,15:00,11:00,8.2,388.37,194.185,Valencia Luxury - Sea Port I,0.0
+1,Valencia,Valencia,2024-11-01,2024-11-03,"Bailen 18, 1º",Hostal o pensión,0.39,14:00,11:00,5.9,168.12,84.06,NWT Central Station Valencia,0.0
+2,Valencia,València,2024-11-01,2024-11-03,C/ Jose Benlliure 236,Apartamento,4.01,15:00,11:00,7.8,314.4,119.7,Best Valencia Beach Flat Historic Area next to the Beach,0.0
 3,Valencia,Valencia,2024-11-01,2024-11-03,"Escritor Rafael Ferreres, 22",Hotel,2.60,16:00,12:00,8.1,400.0,200.0,"Holiday Inn Express Ciudad de las Ciencias, an IHG Hotel",3.0
-4,Valencia,Valencia,2024-11-01,2024-11-03,"Ricardo Micó, 1",Hotel,1.50,15:00,12:00,8.2,369.0,184.5,NH Valencia Center,4.0
-5,Valencia,Valencia,2024-11-01,2024-11-03,"Barcelonina, 5",Hotel,0.19,15:00,12:00,8.4,500.0,250.0,Catalonia Excelsior,4.0
-6,Valencia,Valencia,2024-11-01,2024-11-03,"Valle De Ayora, 1",Hotel,3.03,14:00,12:00,8.0,317.16,158.58,Ilunion Valencia 4,4.0
-7,Valencia,Valencia,2024-11-01,2024-11-03,"Instituto Obrero de Valencia, 26",Hotel,2.26,15:00,12:00,7.6,338.56,169.28,NH Valencia Las Ciencias,3.0
+4,Valencia,Valencia,2024-11-01,2024-11-03,"Escultor Vicente Beltrán Grimal, 2",Hotel,2.56,15:00,12:00,8.4,367.0,183.5,Eurostars Acteón,4.0
+5,Valencia,Valencia,2024-11-01,2024-11-03,"Instituto Obrero de Valencia, 26",Hotel,2.26,15:00,12:00,7.6,368.0,184.0,NH Valencia Las Ciencias,3.0
+6,Valencia,València,2024-11-01,2024-11-03,9 Carrer de Sant Ferran,Hotel,0.34,14:30,12:00,8.4,729.0,364.5,Catalina Suites,4.0
+7,Valencia,València,2024-11-01,2024-11-03,"Calle Mariano Cúber, 27",Hostal o pensión,3.77,15:00,10:00,6.6,127.58,63.79,Kiwi Rooms Auto Check-In,0.0
 8,Valencia,Valencia,2024-11-01,2024-11-03,"Pintor Maella, 35",Hotel,2.77,16:00,12:00,8.2,334.0,167.0,Hotel Valencia Oceanic Affiliated by Meliá,4.0
-9,Valencia,València,2024-11-01,2024-11-03,9 Carrer de Sant Ferran,Hotel,0.34,14:30,12:00,8.4,729.0,364.5,Catalina Suites,4.0
+9,Valencia,Valencia,2024-11-01,2024-11-03,"Valle De Ayora, 1",Hotel,3.03,14:00,12:00,8.0,344.74,172.37,Ilunion Valencia 4,4.0
 10,Valencia,Valencia,2024-11-01,2024-11-03,"Valle de Ayora, 3 (Paralela Cortes Valencianas)",Hotel,3.05,15:00,12:00,8.5,365.0,182.5,Eurostars Gran Valencia,4.0
-11,Valencia,València,2024-11-01,2024-11-03,C/ Jose Benlliure 236,Apartamento,4.01,15:00,11:00,7.8,295.25,147.625,Best Valencia Beach Flat Historic Area next to the Beach,0.0
-12,Valencia,Valencia,2024-11-01,2024-11-03,"Instituto Obrero de Valencia, 28",Hotel,2.26,15:00,12:00,8.1,368.0,184.0,NH Valencia Las Artes,4.0
-13,Valencia,València,2024-11-01,2024-11-03,5 Plaça de Rodrigo Botet,Hotel,0.21,15:00,12:00,9.2,772.8,386.4,Only YOU Hotel Valencia,5.0
-14,Valencia,Valencia,2024-11-01,2024-11-03,"Gascons, 4",Apartamento,0.31,15:00,11:00,8.6,366.28,183.14,Citizentral Gascons,0.0
-15,Valencia,Valencia,2024-11-01,2024-11-03,"Avinguda de Les Corts Valencianes, 52",Hotel,3.47,15:00,12:00,8.5,433.0,216.5,Melia Valencia,4.0
-16,Valencia,Valencia ,2024-11-01,2024-11-03,"Menorca, 22",Hotel,2.98,16:00,12:00,8.3,403.5,201.75,Primus Valencia,4.0
-17,Valencia,Valencia,2024-11-01,2024-11-03,"Cardenal Benlloch, 28",Hotel,1.80,14:00,12:00,8.3,366.16,183.08,Silken Puerta Valencia,4.0
-18,Valencia,Valencia,2024-11-01,2024-11-03,"Avenida Ausias March, 59",Hotel,2.18,14:00,12:00,8.7,413.1,206.55,Hotel Malcom and Barret,3.0
-19,Valencia,Valencia,2024-11-01,2024-11-03,"Avenida de Ausias March, 99",Hotel,2.80,14:00,12:00,7.7,258.34,129.17,B&B HOTEL Valencia Ciudad de las Ciencias,3.0
-20,Valencia,València,2024-11-08,2024-11-10,"3 Carrer de Trafalgar, planta baja",Apartamento,2.88,15:00,11:00,8.4,280.54,140.27,FLORIT FLATS - The Trafalgar Apartments III,0.0
-21,Valencia,València,2024-11-08,2024-11-10,"Avenida Primado Reig, 189",Bed & breakfast,2.05,15:00,11:00,9.2,216.0,108.0,Maison Primado B&B,0.0
-22,Valencia,Valencia,2024-11-08,2024-11-10,"Avenida de Ausias March, 99",Hotel,2.80,14:00,12:00,7.7,193.5,96.75,B&B HOTEL Valencia Ciudad de las Ciencias,3.0
-23,Valencia,Valencia,2024-11-08,2024-11-10,"Calle Colón, 6",Hotel,0.33,15:00,12:00,8.5,414.0,207.0,SH Colón Valencia,4.0
-24,Valencia,Valencia,2024-11-08,2024-11-10,J.J.Domine 13 acceso trasero,Hostal o pensión,3.96,14:00,12:00,8.2,165.6,82.8,Nanit Valencia Hostel,0.0
-25,Valencia,Valencia,2024-11-08,2024-11-10,"Marqués de Dos Aguas, 6",Hotel,0.39,16:00,12:00,8.2,430.56,215.28,SH Ingles Boutique Hotel,4.0
-26,Valencia,Valencia,2024-11-08,2024-11-10,Carrer Timo 4,Hostal o pensión,19.12,15:00,11:00,8.0,113.91,56.955,Hostal Blayet,0.0
+11,Valencia,València,2024-11-01,2024-11-03,Carrer d'En Sanç,Apartamento,0.19,15:00,11:00,8.5,263.0,121.5,APARTAMENTO JUNTO AYUNTAMIENTO DE VALENCIA,0.0
+12,Valencia,València,2024-11-01,2024-11-03,calle de los santos justo y pastor 68 ,Habitación en casa particular,2.52,17:00,12:00,7.0,170.0,65.0,"Habitacion en casa de familia ""ValenciaBonita""",0.0
+13,Valencia,Valencia,2024-11-01,2024-11-03,"Ricardo Micó, 1",Hotel,1.50,15:00,12:00,8.2,369.0,184.5,NH Valencia Center,4.0
+14,Valencia,València,2024-11-01,2024-11-03,44 Carrer de Sagunt,Hostal o pensión,1.58,15:00,11:00,6.5,184.5,79.75,City Center Guest house,0.0
+15,Valencia,Valencia,2024-11-01,2024-11-03,"Instituto Obrero de Valencia, 28",Hotel,2.26,15:00,12:00,8.1,368.0,184.0,NH Valencia Las Artes,4.0
+16,Valencia,Valencia,2024-11-01,2024-11-03,"Barcelonina, 5",Hotel,0.19,15:00,12:00,8.4,500.0,250.0,Catalonia Excelsior,4.0
+17,Valencia,Valencia,2024-11-01,2024-11-03,"Avenida Ausias March, 59",Hotel,2.18,14:00,12:00,8.7,413.1,206.55,Hotel Malcom and Barret,3.0
+18,Valencia,Valencia,2024-11-01,2024-11-03,"Cardenal Benlloch, 28",Hotel,1.80,14:00,12:00,8.3,398.0,199.0,Silken Puerta Valencia,4.0
+19,Valencia,Valencia ,2024-11-01,2024-11-03,"Menorca, 22",Hotel,2.98,16:00,12:00,8.3,403.5,201.75,Primus Valencia,4.0
+20,Valencia,València,2024-11-08,2024-11-10,"3 Carrer de Trafalgar, planta baja",Apartamento,2.88,15:00,11:00,8.4,280.54,110.27,FLORIT FLATS - The Trafalgar Apartments III,0.0
+21,Valencia,Valencia,2024-11-08,2024-11-10,"Avenida de Ausias March, 99",Hotel,2.80,14:00,12:00,7.7,193.5,96.75,B&B HOTEL Valencia Ciudad de las Ciencias,3.0
+22,Valencia,València,2024-11-08,2024-11-10,"Avenida Primado Reig, 189",Bed & breakfast,2.05,15:00,11:00,9.2,216.0,108.0,Maison Primado B&B,0.0
+23,Valencia,Valencia,2024-11-08,2024-11-10,Carrer Timo 4,Hostal o pensión,19.12,15:00,11:00,8.0,123.82,61.91,Hostal Blayet,0.0
+24,Valencia,Valencia,2024-11-08,2024-11-10,J.J.Domine 13 acceso trasero,Hostal o pensión,3.96,14:00,12:00,8.2,180.0,90.0,Nanit Valencia Hostel,0.0
+25,Valencia,València,2024-11-08,2024-11-10,8 Carrer de Campoamor,Apartamento,2.11,15:00,11:00,7.8,202.0,93.0,Unique Estudio,0.0
+26,Valencia,Valencia,2024-11-08,2024-11-10,"Calle Colón, 6",Hotel,0.33,15:00,12:00,8.5,414.0,207.0,SH Colón Valencia,4.0
 27,Valencia,Valencia,2024-11-08,2024-11-10,"Avenida Ausias March, 59",Hotel,2.18,14:00,12:00,8.7,315.9,157.95,Hotel Malcom and Barret,3.0
-28,Valencia,València,2024-11-08,2024-11-10,5 Plaça de Rodrigo Botet,Hotel,0.21,15:00,12:00,9.2,616.4,308.2,Only YOU Hotel Valencia,5.0
-29,Valencia,València,2024-11-08,2024-11-10,50 Avinguda de Giorgeta,Apartamento,1.57,15:00,11:00,8.5,264.96,132.48,North Station PEN-SUITES,0.0
-30,Valencia,Valencia,2024-11-08,2024-11-10,"Cardenal Benlloch, 28",Hotel,1.80,14:00,12:00,8.3,307.28,153.64,Silken Puerta Valencia,4.0
-31,Valencia,València,2024-11-08,2024-11-10,8 Carrer de Campoamor,Apartamento,2.11,15:00,11:00,7.8,184.91,92.455,Unique Estudio,0.0
-32,Valencia,Valencia,2024-11-08,2024-11-10,"Barcas, 4",Hotel,0.12,14:00,12:00,8.2,537.78,268.89,One Shot Palacio Reina Victoria 04,4.0
-33,Valencia,València,2024-11-08,2024-11-10,Calle Avellanas 10,Hostal o pensión,0.53,15:00,12:00,9.2,380.0,190.0,Casa Clarita,0.0
-34,Valencia,Valencia,2024-11-08,2024-11-10,"Bailen, 8",Hotel,0.32,13:00,12:00,8.6,440.0,220.0,Zenit Valencia,4.0
-35,Valencia,Valencia,2024-11-08,2024-11-10,"Góngora, 6",Apartamento,2.01,16:00,12:00,8.7,342.0,171.0,Apartamentos Plaza Picasso,0.0
-36,Valencia,València,2024-11-08,2024-11-10,Abate 4,Apartamento,0.26,15:00,11:00,8.4,255.28,127.64,Apartments Abate 4,0.0
-37,Valencia,València,2024-11-08,2024-11-10,9 Carrer de Sant Ferran,Hotel,0.34,14:30,12:00,8.4,453.6,226.8,Catalina Suites,4.0
-38,Valencia,Valencia,2024-11-08,2024-11-10,"Barcelonina, 5",Hotel,0.19,15:00,12:00,8.4,500.0,250.0,Catalonia Excelsior,4.0
-39,Valencia,Valencia,2024-11-08,2024-11-10,"Luis García Berlanga, 19-21",Hotel,3.05,14:00,12:00,7.8,315.3,157.65,Ilunion Aqua 3,3.0
-40,Barcelona,Barcelona,2024-11-01,2024-11-03,Carrer de Ramon Turró 169-B,Hotel,2.89,15:00,12:00,8.7,363.88,181.94,Acta Voraport,3.0
-41,Barcelona,Barcelona,2024-11-01,2024-11-03,Carrer de Ramon Llull,Hotel,5.20,15:00,11:30,8.8,440.28,220.14,Tembo Barcelona,4.0
-42,Barcelona,Barcelona,2024-11-01,2024-11-03,Passeig de Gracia 84,Hotel,1.01,15:00,12:00,8.6,643.08,321.54,Hotel Royal Passeig de Gracia,4.0
-43,Barcelona,Barcelona,2024-11-01,2024-11-03,"Nicaragua, 47",Hotel,2.44,15:00,12:00,8.4,369.06,184.53,Acta CITY47,4.0
-44,Barcelona,Barcelona,2024-11-01,2024-11-03,"Avenida Marqués de Argentera, 19",Hostal o pensión,1.28,13:30,11:30,7.5,242.0,121.0,Hostal Nuevo Colon,0.0
-45,Barcelona,Barcelona,2024-11-01,2024-11-03,"Pallars, 128-130",Hotel,2.16,14:00,12:00,8.1,409.08,204.54,Sallés Hotel Pere IV,4.0
-46,Barcelona,Barcelona,2024-11-01,2024-11-03,Carrer de Casp 1-13,Hotel,0.20,15:00,12:00,9.1,962.7,481.35,ME Barcelona,5.0
-47,Barcelona,Barcelona,2024-11-01,2024-11-03,"La Rambla, 109",Hotel,0.41,15:00,11:00,8.9,637.8,318.9,Hotel 1898,4.0
-48,Barcelona,Barcelona,2024-11-01,2024-11-03,"Ramon Turró, 196-198",Hotel,2.99,14:00,12:00,8.4,311.24,155.62,Ilunion Barcelona,4.0
-49,Barcelona,Barcelona,2024-11-01,2024-11-03,304 Gran Via de les Corts Catalanes,Hotel,2.57,15:00,12:00,8.8,337.0,168.5,Hotel Brick Barcelona,0.0
-50,Barcelona,Barcelona,2024-11-01,2024-11-03,"Pelai, 28",Hotel,0.31,15:00,12:00,8.3,525.08,262.54,Catalonia Ramblas 4* Sup,4.0
-51,Barcelona,Barcelona,2024-11-01,2024-11-03,"Plaza de Catalunya, 19",Hotel,0.13,15:00,12:00,9.3,565.08,282.54,Olivia Plaza Hotel,4.0
-52,Barcelona,Barcelona,2024-11-01,2024-11-03,"Gran Vía, 389",Hotel,2.01,15:00,12:00,8.7,463.0,231.5,B Hotel,3.0
-53,Barcelona,Barcelona,2024-11-01,2024-11-03,Calabria 90-92,Hotel,1.47,15:00,12:00,8.3,439.89,219.945,Axel TWO Barcelona 4 Sup - Adults Only,4.0
-54,Barcelona,Barcelona,2024-11-01,2024-11-03,"Valencia, 157",Hotel,1.11,14:00,12:00,8.1,438.18,219.09,Sunotel Club Central,4.0
-55,Barcelona,Barcelona,2024-11-01,2024-11-03,"Bergara, 11",Hotel,0.16,15:00,12:00,8.6,505.08,252.54,Catalonia Plaza Catalunya,4.0
-56,Barcelona,Barcelona,2024-11-01,2024-11-03,"Tallers, 66",Hotel,0.37,14:00,12:00,8.1,446.44,223.22,Ciutat Vella,3.0
-57,Barcelona,Barcelona,2024-11-01,2024-11-03,Gran Via Corts Catalanes 656,Hotel,0.44,15:00,12:00,8.2,489.18,244.59,Acta Atrium Palace,4.0
-58,Barcelona,Barcelona,2024-11-01,2024-11-03,"Llançà, 24",Hotel,2.03,14:00,12:00,8.6,485.08,242.54,Ofelias Hotel 4Sup by Bondia Hotel Group,4.0
-59,Barcelona,Barcelona,2024-11-01,2024-11-03,"Carretera Vallvidrera-Tibidabo, 83-93",Hotel,5.94,15:00,12:00,8.9,586.98,293.49,Gran Hotel La Florida G.L Monumento,5.0
-60,Barcelona,Barcelona,2024-11-08,2024-11-10,Carrer de Ramon Llull,Hotel,5.20,15:00,11:30,8.8,410.28,205.14,Tembo Barcelona,4.0
-61,Barcelona,Barcelona,2024-11-08,2024-11-10,"Jaime I, 14",Hotel,0.79,14:00,12:00,8.4,406.68,203.34,Hotel Gótico,4.0
-62,Barcelona,Barcelona,2024-11-08,2024-11-10,Passeig de Gracia 84,Hotel,1.01,15:00,12:00,8.6,613.08,306.54,Hotel Royal Passeig de Gracia,4.0
-63,Barcelona,Barcelona,2024-11-08,2024-11-10,"Nicaragua, 47",Hotel,2.44,15:00,12:00,8.4,355.83,177.915,Acta CITY47,4.0
-64,Barcelona,Barcelona,2024-11-08,2024-11-10,Calabria 90-92,Hotel,1.47,15:00,12:00,8.3,337.89,168.945,Axel TWO Barcelona 4 Sup - Adults Only,4.0
-65,Barcelona,Barcelona,2024-11-08,2024-11-10,"Pelai, 22-24",Hotel,0.34,15:00,12:00,8.2,422.14,211.07,Hotel Lleó,3.0
-66,Barcelona,Barcelona,2024-11-08,2024-11-10,"Gran Vía de Les Corts Catalanes, 647",Hotel,0.64,15:00,12:00,8.5,465.08,232.54,Gran Hotel Havana 4Sup by Escampa Hotels,4.0
-67,Barcelona,Barcelona,2024-11-08,2024-11-10,Gran Via Corts Catalanes 656,Hotel,0.44,15:00,12:00,8.2,476.44,238.22,Acta Atrium Palace,4.0
-68,Barcelona,Barcelona,2024-11-08,2024-11-10,"Sepúlveda, 180",Hotel,0.73,14:00,12:00,8.8,464.84,232.42,Casa Elliot by Bondia Hotel Group,4.0
-69,Barcelona,Barcelona,2024-11-08,2024-11-10,"Plaça Sant Josep Oriol, 1",Hotel,0.61,14:00,11:00,7.6,282.0,141.0,El Jardi,2.0
-70,Barcelona,Barcelona,2024-11-08,2024-11-10,"Plaza Paisos Catalans, s/n",Hotel,2.72,15:00,12:00,8.6,304.08,152.04,Barceló Sants,4.0
-71,Barcelona,Barcelona,2024-11-08,2024-11-10,"Bergara, 11",Hotel,0.16,15:00,12:00,8.6,465.08,232.54,Catalonia Plaza Catalunya,4.0
-72,Barcelona,Barcelona,2024-11-08,2024-11-10,"Carrer de la Mina de la Ciutat, 78",Hostal o pensión,6.84,16:00,11:00,6.5,106.64,53.32,Private rooms,0.0
-73,Barcelona,Barcelona,2024-11-08,2024-11-10,"Pelai, 28",Hotel,0.31,15:00,12:00,8.3,505.08,252.54,Catalonia Ramblas 4* Sup,4.0
-74,Barcelona,Barcelona,2024-11-08,2024-11-10,"Casanova, 211",Apartamento,2.06,15:00,11:00,8.8,473.52,236.76,C211 Barcelona Apartments,0.0
-75,Barcelona,Barcelona,2024-11-08,2024-11-10,"Avenida Meridiana, 151",Hotel,3.00,15:00,12:00,8.2,315.08,157.54,Catalonia Atenas,4.0
-76,Barcelona,Barcelona,2024-11-08,2024-11-10,"Ramon Turró, 196-198",Hotel,2.99,14:00,12:00,8.4,311.11,155.555,Ilunion Barcelona,4.0
-77,Barcelona,Barcelona,2024-11-08,2024-11-10,Carrer de Ramon Turró 169-B,Hotel,2.89,15:00,12:00,8.7,393.62,196.81,Acta Voraport,3.0
-78,Barcelona,Barcelona,2024-11-08,2024-11-10,"Joaquin Costa, 40",Hotel,0.61,15:00,12:00,8.4,373.0,186.5,Acta BCN 40,2.0
-79,Barcelona,Barcelona,2024-11-08,2024-11-10,"Diputació, 257",Hotel,0.44,15:00,12:00,7.6,337.08,168.54,Exe Cristal Palace,4.0
+28,Valencia,València,2024-11-08,2024-11-10,36 Passeig de Neptú,Hostal o pensión,4.60,15:00,12:00,5.8,150.0,75.0,Barraca Suites,0.0
+29,Valencia,Valencia,2024-11-08,2024-11-10,"Paseo Neptuno, 34",Hostal o pensión,4.57,14:00,12:00,5.5,137.38,68.69,Malvarrosa Beach Rooms,2.0
+30,Valencia,Valencia,2024-11-08,2024-11-10,"Marqués de Dos Aguas, 6",Hotel,0.39,16:00,12:00,8.2,468.0,234.0,SH Ingles Boutique Hotel,4.0
+31,Valencia,València,2024-11-08,2024-11-10,Abate 4,Apartamento,0.26,15:00,11:00,8.4,274.0,117.0,Apartments Abate 4,0.0
+32,Valencia,Valencia,2024-11-08,2024-11-10,"Góngora, 6",Apartamento,2.01,16:00,12:00,8.7,342.0,171.0,Apartamentos Plaza Picasso,0.0
+33,Valencia,València,2024-11-08,2024-11-10,50 Avinguda de Giorgeta,Apartamento,1.57,15:00,11:00,8.5,288.0,144.0,North Station PEN-SUITES,0.0
+34,Valencia,Valencia,2024-11-08,2024-11-10,"Cardenal Benlloch, 28",Hotel,1.80,14:00,12:00,8.3,334.0,167.0,Silken Puerta Valencia,4.0
+35,Valencia,Valencia,2024-11-08,2024-11-10,"Calle Campamento, 84",Hostal o pensión,5.43,16:00,12:00,7.3,338.0,169.0,Hostal RR Feria by Beleret,0.0
+36,Valencia,València,2024-11-08,2024-11-10,44 Carrer de Sagunt,Hostal o pensión,1.58,15:00,11:00,6.5,168.0,71.5,City Center Guest house,0.0
+37,Valencia,Valencia,2024-11-08,2024-11-10,"Luis García Berlanga, 19-21",Hotel,3.05,14:00,12:00,7.8,342.72,171.36,Ilunion Aqua 3,3.0
+38,Valencia,València,2024-11-08,2024-11-10,6 Carrer del Convent de Santa Clara,Hostal o pensión,0.17,13:00,11:00,7.8,190.0,95.0,Rotaret,0.0
+39,Valencia,València,2024-11-08,2024-11-10,Carrer dels Horts 1,Apartamento,1.15,15:00,10:00,8.0,213.5,88.345,Loft 3 en el centro,0.0
+40,Barcelona,Barcelona,2024-11-01,2024-11-03,"Avenida Marqués de Argentera, 19",Hostal o pensión,1.28,13:30,11:30,7.5,242.0,110.0,Hostal Nuevo Colon,0.0
+41,Barcelona,Barcelona,2024-11-01,2024-11-03,Carrer de Ramon Turró 169-B,Hotel,2.89,15:00,12:00,8.7,363.88,170.94,Acta Voraport,3.0
+42,Barcelona,Barcelona,2024-11-01,2024-11-03,"Nicaragua, 47",Hotel,2.44,15:00,12:00,8.4,369.06,171.99,Acta CITY47,4.0
+43,Barcelona,Barcelona,2024-11-01,2024-11-03,"Pallars, 128-130",Hotel,2.16,14:00,12:00,8.1,409.08,192.0,Sallés Hotel Pere IV,4.0
+44,Barcelona,Barcelona,2024-11-01,2024-11-03,"Passeig de Sant Antoni, 36-40",Hotel,2.81,15:00,12:00,8.1,340.12,143.2,AC Hotel Sants by Marriott,4.0
+45,Barcelona,Barcelona,2024-11-01,2024-11-03,"Paseo Taulat, 278",Hotel,4.85,15:00,12:00,8.1,344.08,145.0,AC Hotel Barcelona Fórum by Marriott,4.0
+46,Barcelona,Barcelona,2024-11-01,2024-11-03,Passeig de Gracia 84,Hotel,1.01,15:00,12:00,8.6,643.08,309.0,Hotel Royal Passeig de Gracia,4.0
+47,Barcelona,Barcelona,2024-11-01,2024-11-03,304 Gran Via de les Corts Catalanes,Hotel,2.57,15:00,12:00,8.8,337.0,157.5,Hotel Brick Barcelona,0.0
+48,Barcelona,Barcelona,2024-11-01,2024-11-03,Carrer de Ramon Llull,Hotel,5.20,15:00,11:30,8.8,440.28,217.5,Tembo Barcelona,4.0
+49,Barcelona,Barcelona,2024-11-01,2024-11-03,"Ramon Turró, 196-198",Hotel,2.99,14:00,12:00,8.4,336.12,155.52,Ilunion Barcelona,4.0
+50,Barcelona,Barcelona,2024-11-01,2024-11-03,Calabria 90-92,Hotel,1.47,15:00,12:00,8.3,439.89,207.405,Axel TWO Barcelona 4 Sup - Adults Only,4.0
+51,Barcelona,Barcelona,2024-11-01,2024-11-03,Carrer de Casp 1-13,Hotel,0.20,15:00,12:00,9.1,962.7,464.85,ME Barcelona,5.0
+52,Barcelona,Barcelona,2024-11-01,2024-11-03,"La Rambla, 109",Hotel,0.41,15:00,11:00,8.9,631.14,303.03,Hotel 1898,4.0
+53,Barcelona,Barcelona,2024-11-01,2024-11-03,"Gran Vía, 389",Hotel,2.01,15:00,12:00,8.7,423.31,200.655,B Hotel,3.0
+54,Barcelona,Barcelona,2024-11-01,2024-11-03,"Valencia, 157",Hotel,1.11,14:00,12:00,8.1,438.18,206.55,Sunotel Club Central,4.0
+55,Barcelona,Barcelona,2024-11-01,2024-11-03,"Llançà, 24",Hotel,2.03,14:00,12:00,8.6,480.08,227.5,Ofelias Hotel 4Sup by Bondia Hotel Group,4.0
+56,Barcelona,Barcelona,2024-11-01,2024-11-03,"Comte Borrell, 208",Hotel,1.55,14:00,12:00,7.9,383.28,179.1,Zenit Borrell,4.0
+57,Barcelona,Barcelona,2024-11-01,2024-11-03,"Diputacio, 100",Hotel,1.41,15:00,11:00,8.6,344.2,161.1,Leonardo Hotel Barcelona Gran Via,3.0
+58,Barcelona,Barcelona,2024-11-01,2024-11-03,"Carretera Vallvidrera-Tibidabo, 83-93",Hotel,5.94,15:00,12:00,8.9,580.96,273.98,Gran Hotel La Florida G.L Monumento,5.0
+59,Barcelona,Barcelona,2024-11-01,2024-11-03,"Sepúlveda, 180",Hotel,0.73,14:00,12:00,8.8,587.46,281.19,Casa Elliot by Bondia Hotel Group,4.0
+60,Barcelona,Barcelona,2024-11-08,2024-11-10,"Carrer de la Mina de la Ciutat, 78",Hostal o pensión,6.84,16:00,11:00,6.5,114.0,46.0,Private rooms,0.0
+61,Barcelona,Barcelona,2024-11-08,2024-11-10,"Plaça Sant Josep Oriol, 1",Hotel,0.61,14:00,11:00,7.6,282.0,130.0,El Jardi,2.0
+62,Barcelona,Barcelona,2024-11-08,2024-11-10,"Jaime I, 14",Hotel,0.79,14:00,12:00,8.4,406.68,190.8,Hotel Gótico,4.0
+63,Barcelona,Barcelona,2024-11-08,2024-11-10,"Nicaragua, 47",Hotel,2.44,15:00,12:00,8.4,355.83,165.375,Acta CITY47,4.0
+64,Barcelona,Barcelona,2024-11-08,2024-11-10,"Avenida Meridiana, 151",Hotel,3.00,15:00,12:00,8.2,315.08,145.0,Catalonia Atenas,4.0
+65,Barcelona,Barcelona,2024-11-08,2024-11-10,Calabria 90-92,Hotel,1.47,15:00,12:00,8.3,337.89,156.405,Axel TWO Barcelona 4 Sup - Adults Only,4.0
+66,Barcelona,Barcelona,2024-11-08,2024-11-10,Carrer de Ramon Llull,Hotel,5.20,15:00,11:30,8.8,410.28,202.5,Tembo Barcelona,4.0
+67,Barcelona,Barcelona,2024-11-08,2024-11-10,Passeig de Gracia 84,Hotel,1.01,15:00,12:00,8.6,613.08,294.0,Hotel Royal Passeig de Gracia,4.0
+68,Barcelona,Barcelona,2024-11-08,2024-11-10,"Paral·lel, 115",Hotel,1.58,15:00,12:00,8.2,340.08,157.5,Hotel Concordia Barcelona,4.0
+69,Barcelona,Barcelona,2024-11-08,2024-11-10,"Numancia, 74",Hotel,2.69,15:00,12:00,8.5,271.09,123.005,NH Sants Barcelona,4.0
+70,Barcelona,Barcelona,2024-11-08,2024-11-10,"Muntaner, 505",Hotel,3.28,15:00,12:00,8.2,305.08,140.0,Catalonia Barcelona 505,4.0
+71,Barcelona,Barcelona,2024-11-08,2024-11-10,"Plaza Paisos Catalans, s/n",Hotel,2.72,15:00,12:00,8.6,304.08,139.5,Barceló Sants,4.0
+72,Barcelona,Barcelona,2024-11-08,2024-11-10,"Josep Pla, 69",Hotel,4.43,15:00,12:00,8.4,307.23,141.075,Vincci Bit,4.0
+73,Barcelona,Barcelona,2024-11-08,2024-11-10,"Casanova, 211",Apartamento,2.06,15:00,11:00,8.8,473.52,198.0,C211 Barcelona Apartments,0.0
+74,Barcelona,Barcelona,2024-11-08,2024-11-10,"Sepúlveda, 180",Hotel,0.73,14:00,12:00,8.8,460.06,217.49,Casa Elliot by Bondia Hotel Group,4.0
+75,Barcelona,Barcelona,2024-11-08,2024-11-10,"Espronceda, 6",Hotel,3.68,15:00,12:00,7.9,297.08,136.0,Hesperia Barcelona Del Mar,4.0
+76,Barcelona,Barcelona,2024-11-08,2024-11-10,Carrer de Ramon Turró 169-B,Hotel,2.89,15:00,12:00,8.7,393.62,185.81,Acta Voraport,3.0
+77,Barcelona,Barcelona,2024-11-08,2024-11-10,"Roger de Llúria, 60",Hotel,0.72,15:00,12:00,8.4,395.08,185.0,Catalonia Eixample 1864,4.0
+78,Barcelona,Barcelona,2024-11-08,2024-11-10,"Ramon Turró, 196-198",Hotel,2.99,14:00,12:00,8.4,335.98,155.45,Ilunion Barcelona,4.0
+79,Barcelona,Barcelona,2024-11-08,2024-11-10,"Llançà, 24",Hotel,2.03,14:00,12:00,8.6,450.96,212.94,Ofelias Hotel 4Sup by Bondia Hotel Group,4.0

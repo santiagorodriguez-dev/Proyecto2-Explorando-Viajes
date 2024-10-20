@@ -22,13 +22,15 @@ def call_api(key,datos):
             'x-rapidapi-host': "sky-scrapper.p.rapidapi.com"
         }
 
-        conn.request("GET", f"/api/v2/flights/searchFlights?originSkyId={originSkyId}&destinationSkyId={destinationSkyId}&originEntityId={originEntityId}&destinationEntityId={destinationEntityId}&date={date}&returnDate={returnDate}&adults=0&sortBy=best&currency=EUR&market=en-ES&countryCode=ES", headers=headers)
+        url = f"/api/v2/flights/searchFlights?originSkyId={originSkyId}&destinationSkyId={destinationSkyId}&originEntityId={originEntityId}&destinationEntityId={destinationEntityId}&date={date}&returnDate={returnDate}&adults=0&sortBy=best&currency=EUR&market=en-ES&countryCode=ES"
+
+        conn.request("GET", url, headers=headers)
 
         res = conn.getresponse()
         data = res.read()
         dicc_datos = json.loads(data.decode("utf-8"))
     except:
-        print(f"Error al hacer peticion api, en call_api: {datos}")
+        print(f"Error al hacer peticion api, en call_api: {url}")
     return dicc_datos
 
 def tratar_datos(key,dicc_datos):

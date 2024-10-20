@@ -25,11 +25,14 @@ from selenium.webdriver.support import expected_conditions as EC # type: ignore
 from selenium.common.exceptions import NoSuchElementException # type: ignore # Excepciones comunes de selenium que nos podemos encontrar
 
 def carga_datos_previo(url):
-    driver = webdriver.Chrome()
-    driver.get(url)
-    driver.maximize_window()
-    sleep(5)
-    driver.close()
+    try:
+        driver = webdriver.Chrome()
+        driver.get(url)
+        driver.maximize_window()
+        sleep(5)
+        driver.close()
+    except:
+        print(f"Error en carga_datos_previo: {url}")
 
 def obtener_actividades(url, datos_input):
 
@@ -46,68 +49,76 @@ def obtener_actividades(url, datos_input):
         'fecha_fin': []
     }
 
-    print(f"call url: {url}")
-    res = requests.get(url)
-    print(f"respuesta url: {res.status_code}")
+    try:
+        print(f"call url: {url}")
+        res = requests.get(url)
+        print(f"respuesta url: {res.status_code}")
 
-    if res.status_code == 200:
-        list_titulos = []
-        list_descripciones = []
-        list_precios = []
-        list_ciudad = []
-        list_date_1 = []
-        list_date_2 = []
-                
-        sopa = BeautifulSoup(res.content, "html.parser")
-        lista_productos = sopa.findAll("div", {"class": "o-search-list__item"} )
+        if res.status_code == 200:
+            list_titulos = []
+            list_descripciones = []
+            list_precios = []
+            list_ciudad = []
+            list_date_1 = []
+            list_date_2 = []
+                    
+            sopa = BeautifulSoup(res.content, "html.parser")
+            lista_productos = sopa.findAll("div", {"class": "o-search-list__item"} )
 
-        if len(lista_productos) > 0:
-            for i in lista_productos:
-                titulo = i.find("h2").text
-                descripcion = i.find("div",{"class":"comfort-card__text l-list-card__text"}).text
-                precio = i.find("span",{"class":"comfort-card__price__text"}).text
+            if len(lista_productos) > 0:
+                for i in lista_productos:
+                    titulo = i.find("h2").text
+                    descripcion = i.find("div",{"class":"comfort-card__text l-list-card__text"}).text
+                    precio = i.find("span",{"class":"comfort-card__price__text"}).text
 
-                if (len(titulo) > 0):
-                    list_titulos.append(str(titulo).strip())
-                else:
-                    list_titulos.append(np.nan)
-                if (len(descripcion) > 0):
-                    list_descripciones.append(str(descripcion).replace("\xa0"," ").strip())
-                else:
-                    list_descripciones.append(np.nan)
-                if (len(precio) > 0):
-                    list_precios.append(str(precio).replace("¡Gratis!","0").replace("€","").replace(",",".").strip())
-                else:
-                    list_precios.append(np.nan)
+                    if (len(titulo) > 0):
+                        list_titulos.append(str(titulo).strip())
+                    else:
+                        list_titulos.append(np.nan)
+                    if (len(descripcion) > 0):
+                        list_descripciones.append(str(descripcion).replace("\xa0"," ").strip())
+                    else:
+                        list_descripciones.append(np.nan)
+                    if (len(precio) > 0):
+                        list_precios.append(str(precio).replace("¡Gratis!","0").replace("€","").replace(",",".").strip())
+                    else:
+                        list_precios.append(np.nan)
 
-                list_ciudad.append(ciudad)
-                list_date_1.append(date_1)
-                list_date_2.append(date_2)
+                    list_ciudad.append(ciudad)
+                    list_date_1.append(date_1)
+                    list_date_2.append(date_2)
 
-            actividades['titulo'] = list_titulos
-            actividades['descripcion'] = list_descripciones
-            actividades['precio'] = list_precios
-            actividades['ciudad'] = list_ciudad
-            actividades['fecha_ini'] = list_date_1
-            actividades['fecha_fin'] = list_date_2
+                actividades['titulo'] = list_titulos
+                actividades['descripcion'] = list_descripciones
+                actividades['precio'] = list_precios
+                actividades['ciudad'] = list_ciudad
+                actividades['fecha_ini'] = list_date_1
+                actividades['fecha_fin'] = list_date_2
+    except:
+        print(f"Error al obtener_actividades(): {datos_input}")
  
     return actividades
 
 def procesar_pagina(datos_input):
-    page = datos_input[0]
-    ciudad = datos_input[1][0]
-    date_1 = datos_input[1][1]
-    date_2 = datos_input[1][2]
 
-    pag_start_time = time.time()
+    dicc_pag = dict()
+    try:
+        page = datos_input[0]
+        ciudad = datos_input[1][0]
+        date_1 = datos_input[1][1]
+        date_2 = datos_input[1][2]
 
-    url_format = f"https://www.civitatis.com/es/{ciudad}/?page={page}&fromDate={date_1}&toDate={date_2}"
+        pag_start_time = time.time()
 
-    carga_datos_previo(url_format)
- 
-    dicc_pag = obtener_actividades(url_format, datos_input)
-    pag_end_time = time.time()
-    print(f"\n la pagina {page} duró {pag_end_time - pag_start_time:.2f} segundos.")
+        url_format = f"https://www.civitatis.com/es/{ciudad}/?page={page}&fromDate={date_1}&toDate={date_2}"
+
+        carga_datos_previo(url_format)
+    
+        dicc_pag = obtener_actividades(url_format, datos_input)
+        pag_end_time = time.time()
+        print(f"\n la pagina {page} duró {pag_end_time - pag_start_time:.2f} segundos.")
+    except:
+        print(f"Error al procesar_pagina(): {url_format}")
 
     return dicc_pag
 
@@ -139,10 +150,3 @@ def main(input_data, num_pag):
     print(f"\n el total duró {end_time - start_time:.2f} segundos.")
     
     return df
-
-# if __name__ == "__main__":
-
-#     input_data =[['valencia','2024-11-01','2024-11-03'],['valencia','2024-11-08','2024-11-10']]
-#     num_pag = 4
-
-#     main(input_data,num_pag)
