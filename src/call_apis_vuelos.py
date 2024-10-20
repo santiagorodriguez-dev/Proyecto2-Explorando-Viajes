@@ -5,6 +5,23 @@ import json
 import pandas as pd # type: ignore
 
 def call_api(key,datos):
+    """
+    Realiza una solicitud HTTP a la API de Sky Scrapper para obtener información sobre vuelos.
+
+    Args:
+        key (str): Clave de la API para autenticación.
+        datos (list): Lista de datos de entrada que contiene:
+            - originSkyId (str): ID del origen en el sistema Sky.
+            - destinationSkyId (str): ID del destino en el sistema Sky.
+            - originEntityId (str): ID de la entidad de origen.
+            - destinationEntityId (str): ID de la entidad de destino.
+            - date (str): Fecha de salida (formato 'YYYY-MM-DD').
+            - returnDate (str): Fecha de regreso (formato 'YYYY-MM-DD').
+
+    Returns:
+        dict: Un diccionario con la respuesta JSON de la API, decodificado en un objeto Python.
+              En caso de error en la solicitud o al procesar la respuesta, se devuelve un diccionario vacío.
+    """
 
     dicc_datos = dict()
     try:
@@ -34,6 +51,19 @@ def call_api(key,datos):
     return dicc_datos
 
 def tratar_datos(key,dicc_datos):
+    """
+    Procesa los datos obtenidos de la API para construir un DataFrame con la información de los vuelos.
+
+    Args:
+        key (str): Clave de la API para autenticación.
+        dicc_datos (list): Lista con los parámetros para llamar a la API, que incluye datos del vuelo.
+
+    Returns:
+        pd.DataFrame: Un DataFrame de pandas con la información de los vuelos, incluyendo columnas como:
+                      id del vuelo, precio, origen, destino, duración en minutos, fechas de salida y llegada,
+                      y la aerolínea que comercializa el vuelo.
+                      Si ocurre un error al procesar los datos, se devuelve un DataFrame vacío.
+    """
 
     rows = []
     try:
@@ -63,6 +93,24 @@ def tratar_datos(key,dicc_datos):
     return pd.DataFrame(rows)
 
 def main(key,datos):
+    """
+    Ejecuta el flujo completo de obtención y procesamiento de datos para múltiples entradas de vuelos.
+
+    Args:
+        key (str): Clave de la API para autenticación.
+        datos (list of list): Lista de listas, donde cada sublista contiene:
+            - originSkyId (str): ID del origen en el sistema Sky.
+            - destinationSkyId (str): ID del destino en el sistema Sky.
+            - originEntityId (str): ID de la entidad de origen.
+            - destinationEntityId (str): ID de la entidad de destino.
+            - date (str): Fecha de salida (formato 'YYYY-MM-DD').
+            - returnDate (str): Fecha de regreso (formato 'YYYY-MM-DD').
+
+    Returns:
+        pd.DataFrame: Un DataFrame combinado que contiene la información de vuelos procesada
+                      para todas las entradas en `datos`. Incluye todas las columnas generadas
+                      en la función `tratar_datos`.
+    """
     df_final = pd.DataFrame()
 
     for d in datos:

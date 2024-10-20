@@ -5,6 +5,21 @@ import json
 import pandas as pd # type: ignore
 
 def call_api(key,datos):
+    """
+    Realiza una solicitud HTTP a la API de Booking.com para obtener información sobre hoteles.
+
+    Args:
+        key (str): Clave de la API para autenticación.
+        datos (list): Lista de datos de entrada que contiene:
+            - Número de adultos.
+            - Fecha de checkout (str, formato 'YYYY-MM-DD').
+            - ID del destino (str).
+            - Fecha de check-in (str, formato 'YYYY-MM-DD').
+
+    Returns:
+        dict: Un diccionario con la respuesta JSON de la API, decodificado en un objeto Python.
+              En caso de error en la solicitud o al procesar la respuesta, se devuelve un diccionario vacío.
+    """
 
     dicc_datos = dict()
     try:
@@ -33,7 +48,22 @@ def call_api(key,datos):
     return dicc_datos
 
 def tratar_datos(key,datos_input):
+        """
+        Procesa los datos obtenidos de la API para construir un DataFrame con la información de hoteles.
 
+        Args:
+            key (str): Clave de la API para autenticación.
+            datos_input (list): Lista de datos de entrada que contiene:
+                - Fecha de checkout (str, formato 'YYYY-MM-DD').
+                - Fecha de check-in (str, formato 'YYYY-MM-DD').
+                - Destino (str).
+
+        Returns:
+            pd.DataFrame: Un DataFrame de pandas con la información de hoteles, incluyendo columnas como:
+                        destino, ciudad, fechas de check-in y checkout, dirección, tipo de alojamiento,
+                        distancia, horario de check-in y checkout, puntuación de reseñas, precios, nombre del hotel y clase.
+                        Si ocurre un error al procesar los datos, se devuelve un DataFrame vacío.
+        """
         rows = []
         try:
             checkout_date = datos_input[1]
@@ -69,6 +99,23 @@ def tratar_datos(key,datos_input):
         return pd.DataFrame(rows)
 
 def main(key,datos_input):
+    """
+    Ejecuta el flujo completo de obtención y procesamiento de datos para múltiples entradas.
+
+    Args:
+        key (str): Clave de la API para autenticación.
+        datos_input (list of list): Lista de listas, donde cada sublista contiene:
+            - Número de adultos.
+            - Fecha de checkout (str, formato 'YYYY-MM-DD').
+            - ID del destino (str).
+            - Fecha de check-in (str, formato 'YYYY-MM-DD').
+            - Destino (str).
+
+    Returns:
+        pd.DataFrame: Un DataFrame combinado que contiene la información de hoteles procesada
+                      para todas las entradas en `datos_input`. Incluye todas las columnas generadas
+                      en la función `tratar_datos`.
+    """
     df_final = pd.DataFrame()
 
     for d in datos_input:

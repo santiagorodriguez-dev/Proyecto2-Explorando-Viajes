@@ -25,6 +25,15 @@ from selenium.webdriver.support import expected_conditions as EC # type: ignore
 from selenium.common.exceptions import NoSuchElementException # type: ignore # Excepciones comunes de selenium que nos podemos encontrar
 
 def carga_datos_previo(url):
+    """
+    Carga una página web en un navegador automatizado utilizando Selenium.
+
+    Args:
+        url (str): URL de la página web a cargar.
+
+    Returns:
+        None
+    """
     try:
         driver = webdriver.Chrome()
         driver.get(url)
@@ -35,7 +44,25 @@ def carga_datos_previo(url):
         print(f"Error en carga_datos_previo: {url}")
 
 def obtener_actividades(url, datos_input):
+    """
+    Extrae información de actividades desde la página web especificada.
 
+    Args:
+        url (str): URL de la página web que contiene las actividades.
+        datos_input (tuple): Tupla con la información de la búsqueda que incluye:
+            - datos_input[1][0] (str): Nombre de la ciudad.
+            - datos_input[1][1] (str): Fecha de inicio de la búsqueda (formato 'YYYY-MM-DD').
+            - datos_input[1][2] (str): Fecha de finalización de la búsqueda (formato 'YYYY-MM-DD').
+
+    Returns:
+        dict: Un diccionario con la información de las actividades, incluyendo:
+              - 'titulo': Títulos de las actividades.
+              - 'descripcion': Descripción de las actividades.
+              - 'precio': Precios de las actividades.
+              - 'ciudad': Nombre de la ciudad para cada actividad.
+              - 'fecha_ini': Fecha de inicio para cada actividad.
+              - 'fecha_fin': Fecha de finalización para cada actividad.
+    """
     ciudad = datos_input[1][0]
     date_1 = datos_input[1][1]
     date_2 = datos_input[1][2]
@@ -100,7 +127,19 @@ def obtener_actividades(url, datos_input):
     return actividades
 
 def procesar_pagina(datos_input):
+    """
+    Procesa una página de actividades para extraer información detallada.
 
+    Args:
+        datos_input (tuple): Tupla con la información de la página que incluye:
+            - datos_input[0] (int): Número de la página.
+            - datos_input[1][0] (str): Nombre de la ciudad.
+            - datos_input[1][1] (str): Fecha de inicio de la búsqueda (formato 'YYYY-MM-DD').
+            - datos_input[1][2] (str): Fecha de finalización de la búsqueda (formato 'YYYY-MM-DD').
+
+    Returns:
+        dict: Un diccionario con la información de las actividades extraídas de la página.
+    """
     dicc_pag = dict()
     try:
         page = datos_input[0]
@@ -123,6 +162,17 @@ def procesar_pagina(datos_input):
     return dicc_pag
 
 def main(input_data, num_pag):
+    """
+    Ejecuta el flujo completo para extraer y procesar actividades de múltiples páginas.
+
+    Args:
+        input_data (list): Lista de tuplas con información de la búsqueda. Cada tupla contiene:
+            - Una lista con los parámetros de búsqueda: nombre de la ciudad, fecha de inicio y fecha de finalización.
+        num_pag (int): Número de páginas a procesar.
+
+    Returns:
+        pd.DataFrame: DataFrame que contiene la información combinada de todas las actividades extraídas.
+    """
     start_time = time.time()
 
     dicc_result_total = {"titulo": [], 
