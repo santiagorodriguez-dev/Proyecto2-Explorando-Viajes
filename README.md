@@ -15,8 +15,8 @@ Ahora que ya tienes los datos recabados y analizados, han llegado los primeros c
 ## Conclusiones
 
 1. **Resumen de Hallazgos:**
-   - Fechas analizadas (01/11/2024-03/11/2024) y (08/11/2024-10/11/2024)
-   - Ciudades comparadas Barcelo y Valencia salida desde Madrid
+   Fechas analizadas (01/11/2024-03/11/2024) y (08/11/2024-10/11/2024)
+   Ciudades comparadas Barcelona y Valencia salida desde Madrid
      
    - En esta grafica podemos observar que practiamente no hay diferencia de precios de una fecha a otra, solo observamos que Barcelona es un poco mas economica, debido
      a que es una capital que recibe mucho turismo. Al haber mas competencia baja el precio. 
