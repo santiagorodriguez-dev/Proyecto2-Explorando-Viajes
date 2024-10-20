@@ -1,81 +1,81 @@
 ,destination,city,checkin_date,accommodation_type_name,distance,review_score,price_total,hotel_name,class
-0,Valencia,Valencia,2024-11-01,Apartamento,2.67,8.2,388.37,Valencia Luxury - Sea Port I,0.0
-1,Valencia,Valencia,2024-11-01,Hostal o pensión,0.39,5.9,168.12,NWT Central Station Valencia,0.0
-2,Valencia,València,2024-11-01,Apartamento,4.01,7.8,314.4,Best Valencia Beach Flat Historic Area next to the Beach,0.0
-3,Valencia,Valencia,2024-11-01,Hotel,2.6,8.1,400.0,"Holiday Inn Express Ciudad de las Ciencias, an IHG Hotel",3.0
-4,Valencia,Valencia,2024-11-01,Hotel,2.56,8.4,367.0,Eurostars Acteón,4.0
-5,Valencia,Valencia,2024-11-01,Hotel,2.26,7.6,368.0,NH Valencia Las Ciencias,3.0
-6,Valencia,València,2024-11-01,Hotel,0.34,8.4,729.0,Catalina Suites,4.0
-7,Valencia,València,2024-11-01,Hostal o pensión,3.77,6.6,127.58,Kiwi Rooms Auto Check-In,0.0
-8,Valencia,Valencia,2024-11-01,Hotel,2.77,8.2,334.0,Hotel Valencia Oceanic Affiliated by Meliá,4.0
-9,Valencia,Valencia,2024-11-01,Hotel,3.03,8.0,344.74,Ilunion Valencia 4,4.0
-10,Valencia,Valencia,2024-11-01,Hotel,3.05,8.5,365.0,Eurostars Gran Valencia,4.0
-11,Valencia,València,2024-11-01,Apartamento,0.19,8.5,263.0,APARTAMENTO JUNTO AYUNTAMIENTO DE VALENCIA,0.0
-12,Valencia,València,2024-11-01,Habitación en casa particular,2.52,7.0,170.0,"Habitacion en casa de familia ""ValenciaBonita""",0.0
-13,Valencia,Valencia,2024-11-01,Hotel,1.5,8.2,369.0,NH Valencia Center,4.0
-14,Valencia,València,2024-11-01,Hostal o pensión,1.58,6.5,184.5,City Center Guest house,0.0
-15,Valencia,Valencia,2024-11-01,Hotel,2.26,8.1,368.0,NH Valencia Las Artes,4.0
-16,Valencia,Valencia,2024-11-01,Hotel,0.19,8.4,500.0,Catalonia Excelsior,4.0
-17,Valencia,Valencia,2024-11-01,Hotel,2.18,8.7,413.1,Hotel Malcom and Barret,3.0
-18,Valencia,Valencia,2024-11-01,Hotel,1.8,8.3,398.0,Silken Puerta Valencia,4.0
-19,Valencia,Valencia ,2024-11-01,Hotel,2.98,8.3,403.5,Primus Valencia,4.0
-20,Valencia,València,2024-11-08,Apartamento,2.88,8.4,280.54,FLORIT FLATS - The Trafalgar Apartments III,0.0
-21,Valencia,Valencia,2024-11-08,Hotel,2.8,7.7,193.5,B&B HOTEL Valencia Ciudad de las Ciencias,3.0
-22,Valencia,València,2024-11-08,Bed & breakfast,2.05,9.2,216.0,Maison Primado B&B,0.0
-23,Valencia,Valencia,2024-11-08,Hostal o pensión,19.12,8.0,123.82,Hostal Blayet,0.0
-24,Valencia,Valencia,2024-11-08,Hostal o pensión,3.96,8.2,180.0,Nanit Valencia Hostel,0.0
-25,Valencia,València,2024-11-08,Apartamento,2.11,7.8,202.0,Unique Estudio,0.0
-26,Valencia,Valencia,2024-11-08,Hotel,0.33,8.5,414.0,SH Colón Valencia,4.0
-27,Valencia,Valencia,2024-11-08,Hotel,2.18,8.7,315.9,Hotel Malcom and Barret,3.0
-28,Valencia,València,2024-11-08,Hostal o pensión,4.6,5.8,150.0,Barraca Suites,0.0
-29,Valencia,Valencia,2024-11-08,Hostal o pensión,4.57,5.5,137.38,Malvarrosa Beach Rooms,2.0
-30,Valencia,Valencia,2024-11-08,Hotel,0.39,8.2,468.0,SH Ingles Boutique Hotel,4.0
-31,Valencia,València,2024-11-08,Apartamento,0.26,8.4,274.0,Apartments Abate 4,0.0
-32,Valencia,Valencia,2024-11-08,Apartamento,2.01,8.7,342.0,Apartamentos Plaza Picasso,0.0
-33,Valencia,València,2024-11-08,Apartamento,1.57,8.5,288.0,North Station PEN-SUITES,0.0
-34,Valencia,Valencia,2024-11-08,Hotel,1.8,8.3,334.0,Silken Puerta Valencia,4.0
-35,Valencia,Valencia,2024-11-08,Hostal o pensión,5.43,7.3,338.0,Hostal RR Feria by Beleret,0.0
-36,Valencia,València,2024-11-08,Hostal o pensión,1.58,6.5,168.0,City Center Guest house,0.0
-37,Valencia,Valencia,2024-11-08,Hotel,3.05,7.8,342.72,Ilunion Aqua 3,3.0
-38,Valencia,València,2024-11-08,Hostal o pensión,0.17,7.8,190.0,Rotaret,0.0
-39,Valencia,València,2024-11-08,Apartamento,1.15,8.0,213.5,Loft 3 en el centro,0.0
-40,Barcelona,Barcelona,2024-11-01,Hostal o pensión,1.28,7.5,242.0,Hostal Nuevo Colon,0.0
-41,Barcelona,Barcelona,2024-11-01,Hotel,2.89,8.7,363.88,Acta Voraport,3.0
-42,Barcelona,Barcelona,2024-11-01,Hotel,2.44,8.4,369.06,Acta CITY47,4.0
-43,Barcelona,Barcelona,2024-11-01,Hotel,2.16,8.1,409.08,Sallés Hotel Pere IV,4.0
-44,Barcelona,Barcelona,2024-11-01,Hotel,2.81,8.1,340.12,AC Hotel Sants by Marriott,4.0
-45,Barcelona,Barcelona,2024-11-01,Hotel,4.85,8.1,344.08,AC Hotel Barcelona Fórum by Marriott,4.0
-46,Barcelona,Barcelona,2024-11-01,Hotel,1.01,8.6,643.08,Hotel Royal Passeig de Gracia,4.0
-47,Barcelona,Barcelona,2024-11-01,Hotel,2.57,8.8,337.0,Hotel Brick Barcelona,0.0
-48,Barcelona,Barcelona,2024-11-01,Hotel,5.2,8.8,440.28,Tembo Barcelona,4.0
-49,Barcelona,Barcelona,2024-11-01,Hotel,2.99,8.4,336.12,Ilunion Barcelona,4.0
-50,Barcelona,Barcelona,2024-11-01,Hotel,1.47,8.3,439.89,Axel TWO Barcelona 4 Sup - Adults Only,4.0
-51,Barcelona,Barcelona,2024-11-01,Hotel,0.2,9.1,962.7,ME Barcelona,5.0
-52,Barcelona,Barcelona,2024-11-01,Hotel,0.41,8.9,631.14,Hotel 1898,4.0
-53,Barcelona,Barcelona,2024-11-01,Hotel,2.01,8.7,423.31,B Hotel,3.0
-54,Barcelona,Barcelona,2024-11-01,Hotel,1.11,8.1,438.18,Sunotel Club Central,4.0
-55,Barcelona,Barcelona,2024-11-01,Hotel,2.03,8.6,480.08,Ofelias Hotel 4Sup by Bondia Hotel Group,4.0
-56,Barcelona,Barcelona,2024-11-01,Hotel,1.55,7.9,383.28,Zenit Borrell,4.0
-57,Barcelona,Barcelona,2024-11-01,Hotel,1.41,8.6,344.2,Leonardo Hotel Barcelona Gran Via,3.0
-58,Barcelona,Barcelona,2024-11-01,Hotel,5.94,8.9,580.96,Gran Hotel La Florida G.L Monumento,5.0
-59,Barcelona,Barcelona,2024-11-01,Hotel,0.73,8.8,587.46,Casa Elliot by Bondia Hotel Group,4.0
-60,Barcelona,Barcelona,2024-11-08,Hostal o pensión,6.84,6.5,114.0,Private rooms,0.0
-61,Barcelona,Barcelona,2024-11-08,Hotel,0.61,7.6,282.0,El Jardi,2.0
-62,Barcelona,Barcelona,2024-11-08,Hotel,0.79,8.4,406.68,Hotel Gótico,4.0
-63,Barcelona,Barcelona,2024-11-08,Hotel,2.44,8.4,355.83,Acta CITY47,4.0
-64,Barcelona,Barcelona,2024-11-08,Hotel,3.0,8.2,315.08,Catalonia Atenas,4.0
-65,Barcelona,Barcelona,2024-11-08,Hotel,1.47,8.3,337.89,Axel TWO Barcelona 4 Sup - Adults Only,4.0
-66,Barcelona,Barcelona,2024-11-08,Hotel,5.2,8.8,410.28,Tembo Barcelona,4.0
-67,Barcelona,Barcelona,2024-11-08,Hotel,1.01,8.6,613.08,Hotel Royal Passeig de Gracia,4.0
-68,Barcelona,Barcelona,2024-11-08,Hotel,1.58,8.2,340.08,Hotel Concordia Barcelona,4.0
-69,Barcelona,Barcelona,2024-11-08,Hotel,2.69,8.5,271.09,NH Sants Barcelona,4.0
-70,Barcelona,Barcelona,2024-11-08,Hotel,3.28,8.2,305.08,Catalonia Barcelona 505,4.0
-71,Barcelona,Barcelona,2024-11-08,Hotel,2.72,8.6,304.08,Barceló Sants,4.0
-72,Barcelona,Barcelona,2024-11-08,Hotel,4.43,8.4,307.23,Vincci Bit,4.0
-73,Barcelona,Barcelona,2024-11-08,Apartamento,2.06,8.8,473.52,C211 Barcelona Apartments,0.0
-74,Barcelona,Barcelona,2024-11-08,Hotel,0.73,8.8,460.06,Casa Elliot by Bondia Hotel Group,4.0
-75,Barcelona,Barcelona,2024-11-08,Hotel,3.68,7.9,297.08,Hesperia Barcelona Del Mar,4.0
-76,Barcelona,Barcelona,2024-11-08,Hotel,2.89,8.7,393.62,Acta Voraport,3.0
-77,Barcelona,Barcelona,2024-11-08,Hotel,0.72,8.4,395.08,Catalonia Eixample 1864,4.0
-78,Barcelona,Barcelona,2024-11-08,Hotel,2.99,8.4,335.98,Ilunion Barcelona,4.0
-79,Barcelona,Barcelona,2024-11-08,Hotel,2.03,8.6,450.96,Ofelias Hotel 4Sup by Bondia Hotel Group,4.0
+0,Valencia,Valencia,2024-11-01,Apartamento,2.67,8.2,388.37,Valencia luxury - sea port i,0
+1,Valencia,Valencia,2024-11-01,Hostal o pensión,0.39,5.9,168.12,Nwt central station valencia,0
+2,Valencia,València,2024-11-01,Apartamento,4.01,7.8,314.4,Best valencia beach flat historic area next to the beach,0
+3,Valencia,Valencia,2024-11-01,Hotel,2.6,8.1,400.0,"Holiday inn express ciudad de las ciencias, an ihg hotel",3
+4,Valencia,Valencia,2024-11-01,Hotel,2.56,8.4,367.0,Eurostars acteón,4
+5,Valencia,Valencia,2024-11-01,Hotel,2.26,7.6,368.0,Nh valencia las ciencias,3
+6,Valencia,València,2024-11-01,Hotel,0.34,8.4,729.0,Catalina suites,4
+7,Valencia,València,2024-11-01,Hostal o pensión,3.77,6.6,127.58,Kiwi rooms auto check-in,0
+8,Valencia,Valencia,2024-11-01,Hotel,2.77,8.2,334.0,Hotel valencia oceanic affiliated by meliá,4
+9,Valencia,Valencia,2024-11-01,Hotel,3.03,8.0,344.74,Ilunion valencia 4,4
+10,Valencia,Valencia,2024-11-01,Hotel,3.05,8.5,365.0,Eurostars gran valencia,4
+11,Valencia,València,2024-11-01,Apartamento,0.19,8.5,263.0,Apartamento junto ayuntamiento de valencia,0
+12,Valencia,València,2024-11-01,Habitación en casa particular,2.52,7.0,170.0,Habitacion en casa de familia valenciabonita,0
+13,Valencia,Valencia,2024-11-01,Hotel,1.5,8.2,369.0,Nh valencia center,4
+14,Valencia,València,2024-11-01,Hostal o pensión,1.58,6.5,184.5,City center guest house,0
+15,Valencia,Valencia,2024-11-01,Hotel,2.26,8.1,368.0,Nh valencia las artes,4
+16,Valencia,Valencia,2024-11-01,Hotel,0.19,8.4,500.0,Catalonia excelsior,4
+17,Valencia,Valencia,2024-11-01,Hotel,2.18,8.7,413.1,Hotel malcom and barret,3
+18,Valencia,Valencia,2024-11-01,Hotel,1.8,8.3,398.0,Silken puerta valencia,4
+19,Valencia,Valencia ,2024-11-01,Hotel,2.98,8.3,403.5,Primus valencia,4
+20,Valencia,València,2024-11-08,Apartamento,2.88,8.4,280.54,Florit flats - the trafalgar apartments iii,0
+21,Valencia,Valencia,2024-11-08,Hotel,2.8,7.7,193.5,B&b hotel valencia ciudad de las ciencias,3
+22,Valencia,València,2024-11-08,Bed & breakfast,2.05,9.2,216.0,Maison primado b&b,0
+23,Valencia,Valencia,2024-11-08,Hostal o pensión,19.12,8.0,123.82,Hostal blayet,0
+24,Valencia,Valencia,2024-11-08,Hostal o pensión,3.96,8.2,180.0,Nanit valencia hostel,0
+25,Valencia,València,2024-11-08,Apartamento,2.11,7.8,202.0,Unique estudio,0
+26,Valencia,Valencia,2024-11-08,Hotel,0.33,8.5,414.0,Sh colón valencia,4
+27,Valencia,Valencia,2024-11-08,Hotel,2.18,8.7,315.9,Hotel malcom and barret,3
+28,Valencia,València,2024-11-08,Hostal o pensión,4.6,5.8,150.0,Barraca suites,0
+29,Valencia,Valencia,2024-11-08,Hostal o pensión,4.57,5.5,137.38,Malvarrosa beach rooms,2
+30,Valencia,Valencia,2024-11-08,Hotel,0.39,8.2,468.0,Sh ingles boutique hotel,4
+31,Valencia,València,2024-11-08,Apartamento,0.26,8.4,274.0,Apartments abate 4,0
+32,Valencia,Valencia,2024-11-08,Apartamento,2.01,8.7,342.0,Apartamentos plaza picasso,0
+33,Valencia,València,2024-11-08,Apartamento,1.57,8.5,288.0,North station pen-suites,0
+34,Valencia,Valencia,2024-11-08,Hotel,1.8,8.3,334.0,Silken puerta valencia,4
+35,Valencia,Valencia,2024-11-08,Hostal o pensión,5.43,7.3,338.0,Hostal rr feria by beleret,0
+36,Valencia,València,2024-11-08,Hostal o pensión,1.58,6.5,168.0,City center guest house,0
+37,Valencia,Valencia,2024-11-08,Hotel,3.05,7.8,342.72,Ilunion aqua 3,3
+38,Valencia,València,2024-11-08,Hostal o pensión,0.17,7.8,190.0,Rotaret,0
+39,Valencia,València,2024-11-08,Apartamento,1.15,8.0,213.5,Loft 3 en el centro,0
+40,Barcelona,Barcelona,2024-11-01,Hostal o pensión,1.28,7.5,242.0,Hostal nuevo colon,0
+41,Barcelona,Barcelona,2024-11-01,Hotel,2.89,8.7,363.88,Acta voraport,3
+42,Barcelona,Barcelona,2024-11-01,Hotel,2.44,8.4,369.06,Acta city47,4
+43,Barcelona,Barcelona,2024-11-01,Hotel,2.16,8.1,409.08,Sallés hotel pere iv,4
+44,Barcelona,Barcelona,2024-11-01,Hotel,2.81,8.1,340.12,Ac hotel sants by marriott,4
+45,Barcelona,Barcelona,2024-11-01,Hotel,4.85,8.1,344.08,Ac hotel barcelona fórum by marriott,4
+46,Barcelona,Barcelona,2024-11-01,Hotel,1.01,8.6,643.08,Hotel royal passeig de gracia,4
+47,Barcelona,Barcelona,2024-11-01,Hotel,2.57,8.8,337.0,Hotel brick barcelona,0
+48,Barcelona,Barcelona,2024-11-01,Hotel,5.2,8.8,440.28,Tembo barcelona,4
+49,Barcelona,Barcelona,2024-11-01,Hotel,2.99,8.4,336.12,Ilunion barcelona,4
+50,Barcelona,Barcelona,2024-11-01,Hotel,1.47,8.3,439.89,Axel two barcelona 4 sup - adults only,4
+51,Barcelona,Barcelona,2024-11-01,Hotel,0.2,9.1,962.7,Me barcelona,5
+52,Barcelona,Barcelona,2024-11-01,Hotel,0.41,8.9,631.14,Hotel 1898,4
+53,Barcelona,Barcelona,2024-11-01,Hotel,2.01,8.7,423.31,B hotel,3
+54,Barcelona,Barcelona,2024-11-01,Hotel,1.11,8.1,438.18,Sunotel club central,4
+55,Barcelona,Barcelona,2024-11-01,Hotel,2.03,8.6,480.08,Ofelias hotel 4sup by bondia hotel group,4
+56,Barcelona,Barcelona,2024-11-01,Hotel,1.55,7.9,383.28,Zenit borrell,4
+57,Barcelona,Barcelona,2024-11-01,Hotel,1.41,8.6,344.2,Leonardo hotel barcelona gran via,3
+58,Barcelona,Barcelona,2024-11-01,Hotel,5.94,8.9,580.96,Gran hotel la florida g.l monumento,5
+59,Barcelona,Barcelona,2024-11-01,Hotel,0.73,8.8,587.46,Casa elliot by bondia hotel group,4
+60,Barcelona,Barcelona,2024-11-08,Hostal o pensión,6.84,6.5,114.0,Private rooms,0
+61,Barcelona,Barcelona,2024-11-08,Hotel,0.61,7.6,282.0,El jardi,2
+62,Barcelona,Barcelona,2024-11-08,Hotel,0.79,8.4,406.68,Hotel gótico,4
+63,Barcelona,Barcelona,2024-11-08,Hotel,2.44,8.4,355.83,Acta city47,4
+64,Barcelona,Barcelona,2024-11-08,Hotel,3.0,8.2,315.08,Catalonia atenas,4
+65,Barcelona,Barcelona,2024-11-08,Hotel,1.47,8.3,337.89,Axel two barcelona 4 sup - adults only,4
+66,Barcelona,Barcelona,2024-11-08,Hotel,5.2,8.8,410.28,Tembo barcelona,4
+67,Barcelona,Barcelona,2024-11-08,Hotel,1.01,8.6,613.08,Hotel royal passeig de gracia,4
+68,Barcelona,Barcelona,2024-11-08,Hotel,1.58,8.2,340.08,Hotel concordia barcelona,4
+69,Barcelona,Barcelona,2024-11-08,Hotel,2.69,8.5,271.09,Nh sants barcelona,4
+70,Barcelona,Barcelona,2024-11-08,Hotel,3.28,8.2,305.08,Catalonia barcelona 505,4
+71,Barcelona,Barcelona,2024-11-08,Hotel,2.72,8.6,304.08,Barceló sants,4
+72,Barcelona,Barcelona,2024-11-08,Hotel,4.43,8.4,307.23,Vincci bit,4
+73,Barcelona,Barcelona,2024-11-08,Apartamento,2.06,8.8,473.52,C211 barcelona apartments,0
+74,Barcelona,Barcelona,2024-11-08,Hotel,0.73,8.8,460.06,Casa elliot by bondia hotel group,4
+75,Barcelona,Barcelona,2024-11-08,Hotel,3.68,7.9,297.08,Hesperia barcelona del mar,4
+76,Barcelona,Barcelona,2024-11-08,Hotel,2.89,8.7,393.62,Acta voraport,3
+77,Barcelona,Barcelona,2024-11-08,Hotel,0.72,8.4,395.08,Catalonia eixample 1864,4
+78,Barcelona,Barcelona,2024-11-08,Hotel,2.99,8.4,335.98,Ilunion barcelona,4
+79,Barcelona,Barcelona,2024-11-08,Hotel,2.03,8.6,450.96,Ofelias hotel 4sup by bondia hotel group,4
