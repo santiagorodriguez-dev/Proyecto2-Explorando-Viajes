@@ -9,7 +9,7 @@ def grafico_actividades(df_actividades):
     plt.figure(figsize=(12, 8))
     sns.boxplot(data=df_actividades, x='fecha_ini', y='precio', hue='ciudad')
 
-    plt.title('Distribución de precios agrupados por Inicio del fin de semana')
+    plt.title('Distribución de precios de Actividades por Inicio del fin de semana')
     plt.xlabel('')
     plt.ylabel('Precio (EUR)')
     plt.show()
@@ -21,7 +21,7 @@ def grafico_hoteles(df_hoteles):
     sns.boxplot(data=df_hoteles, x='checkin_date', y='price_total', hue='destination')
 
 
-    plt.title('Distribución de Precios por Dia inicio de Fin de semana')
+    plt.title('Distribución de Precios de alojamientos por Dia inicio de Fin de semana')
     plt.xlabel('')
     plt.ylabel('Precio Total (EUR)')
     plt.xticks(rotation=0)
