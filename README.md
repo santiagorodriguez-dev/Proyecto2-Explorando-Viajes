@@ -15,16 +15,20 @@ Ahora que ya tienes los datos recabados y analizados, han llegado los primeros c
 ## Conclusiones
 
 1. **Resumen de Hallazgos:**
-
-   - Identificamos las categorias donde se producen la mayoria de los ingresos, en toda la serie de años.
+   - Fechas analizadas (01/11/2024-03/11/2024) y (08/11/2024-10/11/2024)
+   - Ciudades comparadas Barcelo y Valencia salida desde Madrid
+     
+   - En esta grafica podemos observar que practiamente no hay diferencia de precios de una fecha a otra, solo observamos que Barcelona es un poco mas economica, debido
+     a que es una capital que recibe mucho turismo. Al haber mas competencia baja el precio. 
      
      ![imagen](https://github.com/santiagorodriguez-dev/Proyecto2-Explorando-Viajes/blob/main/images/01.png)
      
-   - Observamos la desviacion de los promedios por categorias y vemos las que mas se desvian en toda la serie de años.
+   - Observamos que hay una diferencia significativa entre las dos fechas elegidas, el 1 de noviembre es puente por lo cual se disparan los precios en las dos capitales.
      
      ![imagen](https://github.com/santiagorodriguez-dev/Proyecto2-Explorando-Viajes/blob/main/images/02.png)
      
-   - Observamos la evolucion de los ingresos realizados por año y categorias.
+   - En este grafico, vemos que los vuelos para el 1 de noviembre debido al festivo, son menos vuelos y con valores atipicos mas altos.
+     vemos para la siguiente fecha de salida 8 de noviembre hay muchas mas opciones de vuelos y precios.
      
      ![imagen](https://github.com/santiagorodriguez-dev/Proyecto2-Explorando-Viajes/blob/main/images/03.png)
 
