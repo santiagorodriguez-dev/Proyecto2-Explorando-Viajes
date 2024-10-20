@@ -12,11 +12,11 @@ Ahora que ya tienes los datos recabados y analizados, han llegado los primeros c
 
 1. **Parejas en busca de escapadas románticas**: Novios o parejas casadas que buscan un viaje especial para celebrar aniversarios, lunas de miel o simplemente para escapar de la rutina.
 
-## Conclusiones
+## Analisis
 
 1. **Resumen de Hallazgos:**
-   Fechas analizadas (01/11/2024-03/11/2024) y (08/11/2024-10/11/2024)
-   Ciudades comparadas Barcelona y Valencia salida desde Madrid
+   - **Fechas analizadas (01/11/2024-03/11/2024) y (08/11/2024-10/11/2024)**
+   - **Ciudades comparadas Barcelona y Valencia salida desde Madrid**
      
    - En esta grafica podemos observar que practiamente no hay diferencia de precios de una fecha a otra, solo observamos que Barcelona es un poco mas economica, debido
      a que es una capital que recibe mucho turismo. Al haber mas competencia baja el precio. 
@@ -31,6 +31,11 @@ Ahora que ya tienes los datos recabados y analizados, han llegado los primeros c
      vemos para la siguiente fecha de salida 8 de noviembre hay muchas mas opciones de vuelos y precios.
      
      ![imagen](https://github.com/santiagorodriguez-dev/Proyecto2-Explorando-Viajes/blob/main/images/03.png)
+
+## Conclusiones
+   - Con los datos analizados, proponemos al cliente, relizar el viaje la segunda fecha analizada 8/11/24
+     ya que es siginificativamente mas econmica en vuelos y hoteles, y con mas opciones de vuelos, con lo cual sera mas flexible la ida/vuelta del cliente.
+     El destino a elegir ya sera por criterio de afinidad/economico del cliente. Considerando que si queremos un viaje mas economico recomendaria Valencia. 
 
 2. **Propuestas de Mejora:**
    - Comparativas por puntuaciones de usuarios ya sea para hoteles, actividades y compañias de vuelos.
